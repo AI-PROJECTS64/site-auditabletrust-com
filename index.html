@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AuditableTrust.com — Auditable Trust & Evidence-Based Trust</title>
+  <meta name="description" content="AuditableTrust.com — independent, descriptive .com domain for Auditable Trust: systems where trust is continuously evidenced through verifiable logs, attestations and receipts. Neutral banner for observatories, frameworks and research hubs." />
+
+  <!-- Canonical & hreflang -->
+  <link rel="canonical" href="https://www.auditabletrust.com/" />
+  <link rel="alternate" href="https://www.auditabletrust.com/" hreflang="fr" />
+  <link rel="alternate" href="https://www.auditabletrust.com/" hreflang="en" />
+  <link rel="alternate" href="https://www.auditabletrust.com/" hreflang="x-default" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="AuditableTrust.com — Auditable Trust & Evidence-Based Trust" />
+  <meta property="og:description" content="Independent, descriptive .com domain reserved as a neutral banner for Auditable Trust — trust that can be independently verified from reliable evidence." />
+  <meta property="og:url" content="https://www.auditabletrust.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.auditabletrust.com/og.jpg" />
+  <meta property="og:image:alt" content="AuditableTrust.com — digital asset for evidence-based trust and auditability" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://www.auditabletrust.com/og.jpg" />
+
+  <!-- Icons & preload -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="preload" as="image" href="/logo-auditabletrust.png" imagesizes="260px" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AuditableTrust.com",
+    "url": "https://www.auditabletrust.com/",
+    "inLanguage": ["fr-FR","en-GB","en-US"],
+    "description": "Independent, descriptive digital asset for Auditable Trust: systems where trust is continuously evidenced through verifiable logs, attestations and receipts.",
+    "sameAs": ["https://www.linkedin.com/company/auditabletrust"],
+    "potentialAction": {
+      "@type": "CommunicateAction",
+      "target": "mailto:contact@auditabletrust.com"
+    }
+  }
+  </script>
+
+  <!-- Styles -->
+  <style>
+    :root{
+      --bg:#020815;
+      --card:#081120;
+      --muted:#8791b0;
+      --text:#e8eefc;
+      --accent:#7fd0ff;
+      --chip:#101b34;
+      --shadow:0 10px 30px rgba(0,0,0,.45);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    html,body{
+      margin:0;
+      padding:0;
+      background:var(--bg);
+      color:var(--text);
+      font:15px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,Arial,sans-serif;
+      -webkit-font-smoothing:antialiased;
+    }
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1040px;margin:0 auto;padding:28px}
+    .topbar{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin:8px 0 22px;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      background:var(--chip);
+      border:1px solid #1d2946;
+      border-radius:999px;
+      padding:6px 12px;
+      color:#c1ccec;
+      font-size:13px;
+    }
+    .badge-dot{
+      width:8px;
+      height:8px;
+      border-radius:999px;
+      background:radial-gradient(circle,#4ade80 0,#16a34a 55%,#052e16 100%);
+      box-shadow:0 0 0 6px rgba(34,197,94,.25);
+    }
+    .lang{
+      gap:10px;
+      display:flex;
+      align-items:center;
+    }
+    .lang button{
+      background:var(--chip);
+      color:var(--text);
+      border:1px solid #1d2946;
+      padding:7px 12px;
+      border-radius:999px;
+      cursor:pointer;
+      font-size:13px;
+    }
+    .lang button[aria-pressed="true"]{
+      background:var(--accent);
+      color:#020815;
+      border-color:transparent;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid #1d2946;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:22px 22px 18px;
+    }
+    .hero{
+      padding:28px 22px 22px;
+      position:relative;
+      overflow:hidden;
+    }
+    .hero:before{
+      content:"";
+      position:absolute;
+      inset:-120px -140px auto auto;
+      width:520px;
+      height:520px;
+      background:radial-gradient(circle at center, rgba(127,208,255,.20), rgba(127,208,255,0) 60%);
+      filter:blur(0px);
+      pointer-events:none;
+    }
+    h1{
+      margin:2px 0 12px;
+      font-size:30px;
+      line-height:1.18;
+      letter-spacing:.4px;
+    }
+    h3{
+      margin:0 0 10px;
+      font-size:18px;
+      letter-spacing:.2px;
+    }
+    p{margin:10px 0}
+    .muted{color:var(--muted)}
+    .logo{
+      width:92px;
+      height:92px;
+      border-radius:22px;
+      border:1px solid #1d2946;
+      box-shadow:0 10px 30px rgba(0,0,0,.35);
+      display:block;
+      margin:10px 0 16px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(12,1fr);
+      gap:16px;
+    }
+    .col-6{grid-column:span 6}
+    @media (max-width:900px){
+      .col-6{grid-column:span 12}
+      h1{font-size:28px}
+      .wrap{padding:22px}
+    }
+    .list{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:8px;
+    }
+    .chip{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:9px 12px;
+      border-radius:999px;
+      background:var(--chip);
+      border:1px solid #1d2946;
+      color:#d5def6;
+      font-size:13px;
+      line-height:1.35;
+    }
+    .cta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:14px;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding:10px 14px;
+      border-radius:999px;
+      border:1px solid #21325b;
+      background:#122143;
+      color:#e8eefc;
+      font-size:14px;
+      cursor:pointer;
+      text-decoration:none;
+    }
+    .btn.primary{
+      background:var(--accent);
+      color:#020815;
+      border-color:transparent;
+      font-weight:600;
+    }
+    .btn:hover{filter:brightness(1.06);text-decoration:none}
+    .ico{width:16px;height:16px}
+    .btn-concept{
+      position:relative;
+      padding-left:12px;
+    }
+    .cn-icon{
+      width:12px;
+      height:12px;
+      border-radius:3px;
+      background:linear-gradient(135deg, rgba(127,208,255,.95), rgba(127,208,255,.30));
+      box-shadow:0 0 0 5px rgba(127,208,255,.12);
+      display:inline-block;
+    }
+    .foot{
+      margin:22px 0 0;
+      font-size:12.5px;
+      color:var(--muted);
+      text-align:left;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        <span>Digital assets available for acquisition</span>
+      </div>
+      <div class="lang">
+        <button id="btn-fr" aria-pressed="false">FR</button>
+        <button id="btn-en" aria-pressed="true">EN</button>
+      </div>
+    </div>
+
+    <!-- ============ HERO EN ============ -->
+    <section class="card hero" data-en>
+      <h1>AuditableTrust.com</h1>
+      <img class="logo" src="/logo-auditabletrust.png" alt="AuditableTrust.com" loading="eager">
+      <p class="muted">
+        <b>Descriptive .com domain</b> for the emerging category of
+        <b>“Auditable Trust”</b>: systems where trust is <b>continuously evidenced</b>
+        through verifiable logs, attestations and receipts - not merely asserted.<br>
+        AuditableTrust.com is reserved as a <b>neutral, non-vendor banner</b>
+        for a potential <b>reference hub, observatory, framework or research initiative</b>
+        dedicated to evidence-based trust in the AI era.<br>
+        The focus is strictly on <b>definitions, taxonomy and references</b> -
+        not on offering audit services, certification, compliance delivery, software
+        products or consulting.<br>
+        Intended for <b>standards bodies, regulators, assurance and audit organizations,
+        hyperscalers, security foundations, industry consortia, research institutes</b>
+        and other qualified entities that may wish, in the future, to operate a
+        public-facing resource on auditable trust under a clear, descriptive label.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:contact@auditabletrust.com?subject=AuditableTrust.com%20-%20NDA%20%2F%20Offer">
+          Submit an offer / Request NDA
+        </a>
+        <a class="btn btn-concept" href="/concept-note.html">
+          <span class="cn-icon"></span>
+          Concept Note
+        </a>
+        <a class="btn" href="#value-en">Why this name?</a>
+        <a class="btn" href="https://www.linkedin.com/company/auditabletrust" target="_blank" rel="noopener" aria-label="Open AuditableTrust.com on LinkedIn">
+          <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M4.98 3.5C4.98 4.88 3.85 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4V8.5zM8.5 8.5h3.8v2h.05c.53-1 1.84-2.05 3.78-2.05 4.04 0 4.79 2.66 4.79 6.13V23h-4v-6.5z"/>
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+      <p class="muted" style="margin-top:8px">
+        <b>Important notice:</b> AuditableTrust.com is a <b>descriptive semantic asset</b>.
+        It is <b>not</b> a standards body, certification authority, audit firm,
+        regulator or government program. It does <b>not</b> provide audits,
+        certifications, compliance services, security services or legal advice.
+        Any observatory, framework or initiative operating under this banner would
+        be entirely designed and governed by its acquirer, under its own
+        responsibilities and applicable laws.
+      </p>
+    </section>
+
+    <!-- ============ VALUE EN ============ -->
+    <section id="value-en" class="card" style="margin-top:16px" data-en>
+      <div class="grid">
+        <div class="col-6">
+          <h3>Why AuditableTrust.com is valuable</h3>
+          <div class="list">
+            <div class="chip">Board-level, cross-sector language that captures a clear shift: from reputation-based trust to evidence-based trust.</div>
+            <div class="chip">Neutral .com banner suitable for standards, assurance and governance initiatives - clearly separate from any vendor product or service.</div>
+            <div class="chip">Anchors a practical doctrine: <b>evidence exists by design</b>, is <b>verifiable by third parties</b>, and supports <b>continuous assurance</b>.</div>
+            <div class="chip">Defensive semantic asset if “auditable trust” becomes a standard category across AI governance, cyber resilience, identity and supply chain integrity.</div>
+            <div class="chip">Durable label aligned with institutional vocabulary: auditability, assurance, evidence, accountability and verification.</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h3>Illustrative use cases</h3>
+          <div class="list">
+            <div class="chip">Public-facing reference hub defining Auditable Trust, publishing a taxonomy and linking to primary standards and regulatory resources.</div>
+            <div class="chip">“Evidence map” library covering audit logs, transparency logs, attestations, provenance and cryptographic receipts - descriptively, without claims of authority.</div>
+            <div class="chip">Neutral framework portal describing principles for decision trails in AI systems and delegated workflows, without rating or certifying implementations.</div>
+            <div class="chip">Cross-industry initiative on continuous assurance and demonstrable controls for regulated environments.</div>
+            <div class="chip">Knowledge center convening assurance, security, cloud and governance stakeholders around verifiable evidence practices.</div>
+          </div>
+        </div>
+      </div>
+      <p class="muted">
+        This site does <b>not</b> sell services, software, data, consulting or
+        compliance delivery. It offers the <b>AuditableTrust.com</b> domain name
+        as a descriptive digital asset. Any methodologies, portals, programmes or
+        observatories built under this label would be developed and governed
+        independently by the acquirer, in line with its mandates and governance.
+      </p>
+    </section>
+
+    <!-- ============ TERMINOLOGY EN ============ -->
+    <section class="card" style="margin-top:16px" data-en>
+      <h3>Terminology and scope</h3>
+      <p class="muted">
+        <b>Auditable Trust</b> describes systems where <b>trust is not assumed</b>:
+        critical claims and behaviors can be <b>independently verified</b> from
+        reliable evidence, with integrity protections and clear verification
+        procedures. This is distinct from reputation-based trust and from “trust”
+        claims that cannot be inspected. Auditable Trust is <b>not</b> a single
+        technology and may be enabled by audit logs, transparency logs,
+        attestations, cryptographic receipts, confidential computing and
+        privacy-preserving verification.
+      </p>
+    </section>
+
+    <!-- ============ RELATED EN ============ -->
+    <section class="card" style="margin-top:16px" data-en>
+      <h3>Related assets (same integrity & systemic risk thesis)</h3>
+      <p class="muted">
+        Depending on its strategy, a future owner may decide to position
+        <b>AuditableTrust.com</b> alongside other neutral banners focused on
+        integrity, governance and systemic risk:
+      </p>
+      <div class="list">
+        <a class="chip" href="https://www.mentalintegrity.com" target="_blank" rel="noopener">MentalIntegrity.com</a>
+        <a class="chip" href="https://www.computeintegrity.com" target="_blank" rel="noopener">ComputeIntegrity.com</a>
+        <a class="chip" href="https://www.signedresponse.com" target="_blank" rel="noopener">SignedResponse.com</a>
+        <a class="chip" href="https://www.syntheticaudit.com" target="_blank" rel="noopener">SyntheticAudit.com</a>
+        <a class="chip" href="https://www.globalriskarchitecture.com" target="_blank" rel="noopener">GlobalRiskArchitecture.com</a>
+      </div>
+      <p class="muted">
+        These examples are illustrative only. This site offers for sale the
+        <b>AuditableTrust.com</b> domain name as a standalone asset, with any
+        potential bundling or architecture to be determined solely by the acquirer.
+      </p>
+    </section>
+
+    <!-- ============ ACQUISITION EN ============ -->
+    <section class="card" style="margin-top:16px" data-en>
+      <h3>Acquisition (secure process)</h3>
+      <p class="muted">
+        Typical process: <b>NDA → strategic exchanges → formal offer → escrow →
+        domain transfer</b>. The transaction concerns the <b>AuditableTrust.com</b>
+        domain name as an intangible digital asset. No software, data, audits,
+        certifications, consulting, compliance delivery or services are included,
+        unless explicitly agreed separately.
+      </p>
+      <a class="btn primary" href="mailto:contact@auditabletrust.com?subject=AuditableTrust.com%20-%20NDA%20%2F%20Offer">
+        Direct contact: contact@auditabletrust.com
+      </a>
+    </section>
+
+    <!-- ============ DOCS EN ============ -->
+    <section class="card" style="margin-top:16px" data-en>
+      <h3>Documents / Briefs</h3>
+      <p class="muted">
+        Detailed AuditableTrust.com acquisition brief (2025-11) available in
+        English for Security, Risk, Assurance, Legal, Governance and Executive teams.
+      </p>
+      <div class="cta">
+        <a class="btn" href="/Acquisition%20Brief%20auditabletrust-EN-202511.pdf" target="_blank" rel="noopener" type="application/pdf">
+          👁️ Open Brief (EN)
+        </a>
+        <a class="btn primary" href="/Acquisition%20Brief%20auditabletrust-EN-202511.pdf" download="Acquisition-Brief-AuditableTrust-EN-202511.pdf" type="application/pdf">
+          📥 Download (EN, PDF)
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ HERO FR ============ -->
+    <section class="card hero" data-fr hidden>
+      <h1>AuditableTrust.com</h1>
+      <img class="logo" src="/logo-auditabletrust.png" alt="AuditableTrust.com" loading="eager">
+      <p class="muted">
+        Nom de domaine <b>descriptif en .com</b> pour la catégorie émergente
+        <b>« Auditable Trust »</b> : des systèmes où la confiance est
+        <b>étayée en continu</b> par des preuves vérifiables (logs, attestations,
+        reçus) - et non simplement déclarée.<br>
+        AuditableTrust.com est réservé comme <b>bannière neutre et non commerciale</b>
+        pour un éventuel <b>référentiel, observatoire, cadre d’analyse ou initiative
+        de recherche</b> dédié à la confiance fondée sur la preuve à l’ère de l’IA.<br>
+        Le périmètre porte sur <b>les définitions, la taxonomie et les références</b>
+        - sans offrir de prestations d’audit, de certification, de conformité,
+        de logiciels ou de conseil.<br>
+        Le nom est destiné en priorité aux <b>organismes de standardisation,
+        régulateurs, acteurs de l’audit et de l’assurance, hyperscalers, fondations
+        cyber, consortiums industriels et instituts de recherche</b> susceptibles,
+        à terme, d’opérer une ressource publique sur l’Auditable Trust sous une
+        bannière claire et descriptive.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:contact@auditabletrust.com?subject=AuditableTrust.com%20-%20NDA%20%2F%20Proposition">
+          Proposer une offre / Demander un NDA
+        </a>
+        <a class="btn" href="#value-fr">Pourquoi ce nom ?</a>
+        <a class="btn" href="https://www.linkedin.com/company/auditabletrust" target="_blank" rel="noopener" aria-label="Ouvrir la page LinkedIn AuditableTrust.com">
+          <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M4.98 3.5C4.98 4.88 3.85 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4V8.5zM8.5 8.5h3.8v2h.05c.53-1 1.84-2.05 3.78-2.05 4.04 0 4.79 2.66 4.79 6.13V23h-4v-6.5z"/>
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+      <p class="muted" style="margin-top:8px">
+        <b>Nota important :</b> AuditableTrust.com est un <b>actif sémantique
+        descriptif</b>. Ce n’est pas un organisme de standardisation, une autorité
+        de certification, un cabinet d’audit, un régulateur ou un programme public.
+        Le site ne fournit <b>ni</b> audits, <b>ni</b> certifications, <b>ni</b>
+        services de conformité ou de sécurité, et ne délivre <b>aucun</b> avis
+        juridique ou réglementaire. Tout observatoire, cadre ou initiative opéré
+        sous cette bannière serait intégralement conçu et gouverné par son
+        acquéreur, sous sa seule responsabilité et dans le respect des lois
+        applicables.
+      </p>
+    </section>
+
+    <!-- ============ VALUE FR ============ -->
+    <section id="value-fr" class="card" style="margin-top:16px" data-fr hidden>
+      <div class="grid">
+        <div class="col-6">
+          <h3>Pourquoi AuditableTrust.com a de la valeur</h3>
+          <div class="list">
+            <div class="chip">Expression claire et transversale qui formalise un basculement net : de la confiance par réputation vers la confiance par la preuve.</div>
+            <div class="chip">Bannière neutre en .com adaptée à des initiatives de standardisation, d’assurance et de gouvernance, distincte de toute marque produit ou fournisseur.</div>
+            <div class="chip">Ancre une doctrine praticable : <b>preuve by design</b>, <b>vérifiable par des tiers</b>, compatible avec <b>l’assurance continue</b>.</div>
+            <div class="chip">Actif sémantique défensif si l’« Auditable Trust » devient une catégorie de référence pour la gouvernance IA, la résilience cyber, l’identité et la supply chain.</div>
+            <div class="chip">Libellé durable aligné avec le vocabulaire institutionnel : auditabilité, assurance, preuve, responsabilité, vérification.</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h3>Exemples de cas d’usage</h3>
+          <div class="list">
+            <div class="chip">Référentiel public définissant l’Auditable Trust, publiant une taxonomie et renvoyant vers des sources primaires (standards et textes officiels).</div>
+            <div class="chip">Bibliothèque « evidence map » sur logs d’audit, transparency logs, attestations, provenance et reçus cryptographiques, de manière descriptive et neutre.</div>
+            <div class="chip">Portail décrivant un cadre de principes pour les traces de décision en IA et les workflows délégués, sans notation ni certification.</div>
+            <div class="chip">Initiative intersectorielle sur l’assurance continue et les contrôles démontrables en environnement régulé.</div>
+            <div class="chip">Hub de connaissances réunissant assurance, sécurité, cloud et gouvernance autour des pratiques de preuve vérifiable.</div>
+          </div>
+        </div>
+      </div>
+      <p class="muted">
+        Ce site ne vend <b>ni services, ni logiciels, ni données, ni conseil, ni
+        conformité</b>. Il propose le <b>nom de domaine AuditableTrust.com</b>
+        en tant qu’actif numérique descriptif. Toute méthodologie, plateforme,
+        programme ou observatoire mis en place sous cette bannière relèvera
+        intégralement de l’acquéreur, selon ses mandats et sa gouvernance.
+      </p>
+    </section>
+
+    <!-- ============ TERMINOLOGIE FR ============ -->
+    <section class="card" style="margin-top:16px" data-fr hidden>
+      <h3>Terminologie et périmètre</h3>
+      <p class="muted">
+        <b>Auditable Trust</b> désigne des systèmes où la confiance n’est pas
+        présupposée : les comportements et affirmations critiques peuvent être
+        <b>vérifiés indépendamment</b> à partir de preuves fiables, avec des
+        protections d’intégrité et des procédures de vérification explicites.
+        Ce n’est pas une technologie unique et cela peut s’appuyer sur des logs,
+        transparency logs, attestations, reçus cryptographiques, confidential
+        computing et vérification respectueuse de la vie privée.
+      </p>
+    </section>
+
+    <!-- ============ AUTRES ACTIFS FR ============ -->
+    <section class="card" style="margin-top:16px" data-fr hidden>
+      <h3>Actifs associés (même thèse intégrité & risque systémique)</h3>
+      <p class="muted">
+        Selon sa stratégie, un acquéreur pourra articuler
+        <b>AuditableTrust.com</b> avec d’autres bannières neutres dédiées
+        à l’intégrité, à la gouvernance et aux risques :
+      </p>
+      <div class="list">
+        <a class="chip" href="https://www.mentalintegrity.com" target="_blank" rel="noopener">MentalIntegrity.com</a>
+        <a class="chip" href="https://www.computeintegrity.com" target="_blank" rel="noopener">ComputeIntegrity.com</a>
+        <a class="chip" href="https://www.signedresponse.com" target="_blank" rel="noopener">SignedResponse.com</a>
+        <a class="chip" href="https://www.syntheticaudit.com" target="_blank" rel="noopener">SyntheticAudit.com</a>
+        <a class="chip" href="https://www.globalriskarchitecture.com" target="_blank" rel="noopener">GlobalRiskArchitecture.com</a>
+      </div>
+      <p class="muted">
+        Ces exemples sont fournis à titre illustratif. Sur ce site, seul le nom de
+        domaine <b>AuditableTrust.com</b> est proposé à l’acquisition, toute
+        logique de bundle ou d’architecture restant à la discrétion de l’acquéreur.
+      </p>
+    </section>
+
+    <!-- ============ ACQUISITION FR ============ -->
+    <section class="card" style="margin-top:16px" data-fr hidden>
+      <h3>Acquisition (process sécurisé)</h3>
+      <p class="muted">
+        Processus type : <b>NDA → échanges stratégiques → offre formelle →
+        escrow → transfert du domaine</b>. La transaction porte sur le
+        <b>nom de domaine AuditableTrust.com</b> en tant qu’actif numérique
+        incorporel. Aucun logiciel, base de données, audit, certification,
+        conseil, conformité ou service n’est inclus, sauf accord séparé explicite.
+      </p>
+      <a class="btn primary" href="mailto:contact@auditabletrust.com?subject=AuditableTrust.com%20-%20NDA%20%2F%20Proposition">
+        Contact direct : contact@auditabletrust.com
+      </a>
+    </section>
+
+    <!-- ============ DOCS FR ============ -->
+    <section class="card" style="margin-top:16px" data-fr hidden>
+      <h3>Documents / Briefs</h3>
+      <p class="muted">
+        Brief d’acquisition détaillé AuditableTrust.com (2025-11) disponible
+        en français pour les équipes Sécurité, Risques, Audit/Assurance, Juridique,
+        Gouvernance et Direction.
+      </p>
+      <div class="cta">
+        <a class="btn" href="/Acquisition%20Brief%20auditabletrust-202511.pdf" target="_blank" rel="noopener" type="application/pdf">
+          👁️ Ouvrir le Brief (FR)
+        </a>
+        <a class="btn primary" href="/Acquisition%20Brief%20auditabletrust-202511.pdf" download="Acquisition-Brief-AuditableTrust-FR-202511.pdf" type="application/pdf">
+          📥 Télécharger (FR, PDF)
+        </a>
+      </div>
+    </section>
+
+    <p class="foot muted">
+      © AuditableTrust.com — descriptive digital asset “Auditable Trust”.
+      AuditableTrust.com is an independent, informational resource. It is not affiliated with any government entity, standards body, certification authority, audit firm, regulator or commercial provider. Descriptive use only. No legal, compliance, audit, security or investment advice. — Contact:
+      <a href="mailto:contact@auditabletrust.com">contact@auditabletrust.com</a>
+    </p>
+  </div>
+
+  <script>
+    const frBtn = document.getElementById('btn-fr');
+    const enBtn = document.getElementById('btn-en');
+
+    function show(lang){
+      document.querySelectorAll('[data-fr]').forEach(n => n.hidden = (lang !== 'fr'));
+      document.querySelectorAll('[data-en]').forEach(n => n.hidden = (lang !== 'en'));
+      frBtn.setAttribute('aria-pressed', String(lang === 'fr'));
+      enBtn.setAttribute('aria-pressed', String(lang === 'en'));
+      document.documentElement.lang = lang;
+    }
+
+    frBtn.addEventListener('click', () => show('fr'));
+    enBtn.addEventListener('click', () => show('en'));
+
+    (function initLang(){
+      show('en');
+    })();
+  </script>
+</body>
+</html>
